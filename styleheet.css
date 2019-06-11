@@ -1495,7 +1495,6 @@ footer{
 .line,.youtube,.photo{
   display: block;
 }
-
 .line{
   background-image: url("https://satudora.jp/common/images/foot/ico_line.png");
   background-repeat: no-repeat;
@@ -1522,8 +1521,6 @@ footer{
   border-radius: 5px;
 }
 .facebook,.twitter{
-  position: relative;
-  top:-534px;
   margin-bottom: -534px;
 }
 .facebook p,.twitter p{
@@ -1569,6 +1566,10 @@ footer h2{
 }
 .back{
   display: none;
+}
+.others{
+  padding-left: 670px;
+  margin-top: -35px;
 }
 /*---------------------------------------------------------*/
 @media(max-width:680px){
@@ -1661,5 +1662,8 @@ footer h2{
     padding-top:8px;
     padding-bottom:8px;
     border-radius: 5px;
+  }
+  .others{
+    margin-top: 0px;
   }
 }
