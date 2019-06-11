@@ -75,4 +75,7 @@ $(function() {
           scrollTop:0
         },500);
       });
+    $('.modal-top a').click(function(){
+        $('.modal-top a')css('background-color': '#DCE600');
+      });
 });
